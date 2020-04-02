@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCAMS.Web", "SCAMS\SCAMS.Web.csproj", "{E0332E53-E2F3-4DFA-A44E-9D22F9733104}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCAMS.Repository", "SCAMS.Repository\SCAMS.Repository.csproj", "{229DC887-8C2C-4F80-B930-0C8CA90C1209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SCAMS.Services", "SCAMS.BusinessServices\SCAMS.Services.csproj", "{87795B44-BA36-4146-AF12-8156CB339EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{37192135-64EB-429E-AA3D-B14D8BC9BC5F}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E366A88D-D2E7-4DF2-96AD-AE84404DD1B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{F4A69B5C-0BD5-4529-9B99-C278532B86A9}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Tables\tblOrganizationCode.sql = Database\Tables\tblOrganizationCode.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0332E53-E2F3-4DFA-A44E-9D22F9733104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0332E53-E2F3-4DFA-A44E-9D22F9733104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0332E53-E2F3-4DFA-A44E-9D22F9733104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0332E53-E2F3-4DFA-A44E-9D22F9733104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229DC887-8C2C-4F80-B930-0C8CA90C1209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229DC887-8C2C-4F80-B930-0C8CA90C1209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229DC887-8C2C-4F80-B930-0C8CA90C1209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229DC887-8C2C-4F80-B930-0C8CA90C1209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87795B44-BA36-4146-AF12-8156CB339EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87795B44-BA36-4146-AF12-8156CB339EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87795B44-BA36-4146-AF12-8156CB339EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87795B44-BA36-4146-AF12-8156CB339EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4A69B5C-0BD5-4529-9B99-C278532B86A9} = {E366A88D-D2E7-4DF2-96AD-AE84404DD1B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE9890EC-FAB2-4EE1-A8AC-CBC4CC47C651}
+	EndGlobalSection
+EndGlobal

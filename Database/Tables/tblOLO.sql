@@ -1,0 +1,19 @@
+/* Do not use ?? The OLO will be stored in the agency table
+USE [SCAMS]
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[OLO]') AND type in (N'U'))
+BEGIN
+        DROP TABLE [dbo].OLO
+END
+
+
+CREATE TABLE [Agency] (
+	OLOID INT IDENTITY(1,1) NOT NULL,
+	AgencyID varchar(2) NOT NULL,
+	CONSTRAINT [PK_OLOID] PRIMARY KEY CLUSTERED 
+	(
+		OLOID ASC
+	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+*/

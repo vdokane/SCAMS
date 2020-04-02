@@ -1,0 +1,19 @@
+USE [SCAMS]
+GO
+
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Section]') AND type in (N'U'))
+BEGIN
+        DROP TABLE [dbo].Section
+END
+
+
+CREATE TABLE [Section] (
+	SectionID INT IDENTITY(1,1) NOT NULL,
+	SectionName varchar(50) NOT NULL,
+	Code varchar(2) NOT NULL,
+	FLAIRName varchar(50) NOT NULL,
+	CONSTRAINT [PK_SectionID] PRIMARY KEY CLUSTERED 
+	(
+		SectionID ASC
+	)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]

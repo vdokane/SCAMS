@@ -1,0 +1,5 @@
+22 – state courts
+XX (L2) – which part of the branch (01 is OSCA/SC; 20 is circuits; 25 county court; etc)
+XX (L3) –  this will usually identify which circuit its in (01-20)
+XX (L4) – this will often be used to identify which county (01-67)
+XX (L5) – discrete unit/functional area/etc.
